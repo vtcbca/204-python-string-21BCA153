@@ -1,1 +1,11 @@
 WAS to print the sum of  1 t0 n number .
+
+
+n=int(input("Enter your choise:"))
+i=1
+sum=0
+while(i<=n):
+    sum=sum+i
+    i=i+1
+print("sum=",sum)
+    
