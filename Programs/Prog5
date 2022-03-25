@@ -1,3 +1,8 @@
 WAS to enter any number and print from which number from 0 to 9 it is divisible.
 
 
+n=int(input("Enter any number:"))
+if(n%2==0):
+    print(f"{n} Number is divisible by 2")
+else:
+    print(f"{n} Number is not divisible by 2")
